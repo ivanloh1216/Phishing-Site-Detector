@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <link href="popup.css" rel="stylesheet" type="text/css" />
+      <script type="module" src="popup.js"></script>
+      <script type="module" src="content.js"></script>
+      <title>My Phishing Site Detector</title>
+    </head>
+
+    <body>      
+      <div class="container">
+        <div>
+          <div id="headerBar" class="title">
+            <span id="statusPhrase">Unknown</span>
+          </div>
+          <a href="#">
+            <div title="Check if this website is safe!" id="checkPhishing" type="text">
+              Check URL
+            </div>
+          </a>
+            <div id="responseContainer"></div>
+          <a href="bookmarks.html">
+            <div title="View Bookmarks" id="bookmarks" type="text">
+              Bookmarks 
+            </div>
+          </a> 
+          <a href="#">          
+            <div title="Report a phishing website to us!" id="reportPhishing" type="text">
+              Report Scam
+            </div>
+          </a> 
+            <div id="reportStatus"></div>    
+          <div class="footer">
+            <a href="stats.html" class="black-text"> Stats </a>
+            |
+            <a href="settings.html" class="black-text"> Settings </a>
+            |
+            <a href="about.html" class="black-text"> About </a>
+            |
+            <a href="privacy.html" class="black-text"> Privacy Policy </a>
+          </div>          
+        </div>
+      </div>
+
+    </body>
+</html>

@@ -1,0 +1,379 @@
+.container {
+  width: 350px;
+  height: auto;
+  word-break: break-all;
+  white-space: normal;
+  color: #314d3e;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  background-color: #969696;
+  color: white;
+  cursor: default;
+}
+
+.url {
+  font-size: 14px;
+  color: blue;
+}
+
+#checkPhishing {
+  
+  color: black;
+  width: auto;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 4px;
+  height: 3rem;
+  font-size: 1.1rem;
+  padding-top: 20px;
+  background-color: white;
+  border: 3px solid transparent;
+  transition: 0.3s ease-in-out;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);    
+}
+
+#checkPhishing:hover {
+  background-color: #0071bc;
+  color: white;
+  cursor: pointer;
+}
+
+#reportPhishing {
+  
+  color: black;
+  width: auto;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 4px;
+  height: 3rem;
+  font-size: 1.1rem;
+  padding-top: 20px;
+  background-color: white;
+  border: 3px solid transparent;
+  transition: 0.3s ease-in-out;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);    
+}
+
+#reportPhishing:hover {
+  background-color: #0071bc;
+  color: white;
+  cursor: pointer;
+}
+
+#bookmarks {
+  
+  color: black;
+  width: auto;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 4px;
+  height: 3rem;
+  font-size: 1.1rem;
+  padding-top: 20px;
+  background-color: white;
+  border: 3px solid transparent;
+  transition: 0.3s ease-in-out;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);    
+}
+
+#bookmarks:hover {
+  background-color: #0071bc;
+  color: white;
+  cursor: pointer;
+}
+
+#bookmarksHeader {
+  cursor: default;
+  color: white;
+  width: auto;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 4px;
+  height: 3rem;
+  font-size: 1.1rem;
+  padding-top: 20px;
+  background-color: #0071bc;
+  border: 3px solid transparent;
+  transition: 0.3s ease-in-out;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);    
+}
+
+a {
+  text-decoration: none;
+}
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+#bookmarkBtn{
+  height: 2rem;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 4px;
+  padding-top: 12px;
+  color: white;
+  background-color: rgb(22, 185, 22);
+}
+
+#bookmarkBtn:hover {
+  background-color: rgb(14, 111, 14);;
+  color: white;
+  cursor: pointer;
+}
+
+#bookmarkBtn:active{
+  transform: translateY(4px);
+}
+
+div.bookmarkContent {
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#backBtn {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  float: right; 
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+#backBtn:hover {
+  transition: 0.5s;;
+  background-color: #0071bc;
+  color: white;
+  cursor: pointer;
+}
+
+#backBtn:active {
+  transform: translateY(4px);
+}
+
+.footer {
+  text-align: center;
+}
+
+.black-text {
+  color: black;
+}
+
+.black-text:hover {
+  color: #0071bc;
+}
+
+#settingsHeader {
+  cursor: default;
+  color: white;
+  width: auto;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 4px;
+  height: 3rem;
+  font-size: 1.1rem;
+  padding-top: 20px;
+  background-color: #0071bc;
+  border: 3px solid transparent;
+  transition: 0.3s ease-in-out;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);    
+}
+
+.settingsContent{
+  padding-top: 25px;
+  text-align: center;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-left: 10px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.settingsText {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+}
+
+.settingsLabel {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.aboutContent {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#updateButton{
+  position: relative;
+  background-color: #2196F3;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#updateButton:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+#updateButton:hover{
+  background-color: #0071bc;
+}
+
+#updateButton:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+#statusMsg {
+  padding-top: 10px;
+  color: red;
+}
+
+#phishingStatsPercent {
+  color: #ff0400; 
+  font-weight: bold;
+}
+
+#safeStatsPercent {
+  color: #17Bf63; 
+  font-weight: bold;
+}
+
+.statsContent {
+  font-size: 14px;
+}
+
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.stats-table th, .stats-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.stats-table th {
+  background-color: #f2f2f2;
+}
+
+.stats-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.stats-table tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+.logo {
+  width: 16px; 
+  height: 16px;
+}
+
+#reportStats:hover, #bookmarkStats:hover{
+  color: #0071bc;
+  cursor: pointer;
+}

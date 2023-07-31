@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <link href="popup.css" rel="stylesheet" type="text/css" />
+      <script type="module" src="settings.js"></script>
+      <title>My Phishing Site Detector</title>
+    </head>
+
+    <body>      
+      <div class="container">
+        <div>
+          <div id="headerBar" class="title">
+            <span id="statusPhrase">Unknown</span>
+          </div>
+          <div id="settingsHeader">Settings</div>                 
+        </div>
+        <div class="settingsContent">
+            <label class="settingsLabel">
+                <span class="settingsText">Phishing Site Detection</span>
+                <label class="switch">
+                  <input id="phishingDetectionToggle" type="checkbox" checked />
+                  <span class="slider round"></span>
+                </label>
+            </label>
+            <br><br>
+            <label class="settingsLabel">
+                <span class="settingsText">Phishing URL Detection</span>
+                <label class="switch">
+                  <input id="phishingURLToggle" type="checkbox" checked />
+                  <span class="slider round"></span>
+                </label>
+            </label>
+            <br><br>
+            <label class="settingsLabel">
+                <span class="settingsText">Phishing Content Detection</span>
+                <label class="switch">
+                  <input id="phishingContentToggle" type="checkbox" checked />
+                  <span class="slider round"></span>
+                </label>
+            </label>
+            <br><br>
+            <label class="settingsLabel">
+              <span class="settingsText">Use Online Whitelist / Blacklist</span>
+              <label class="switch">
+                <input id="onlineListsToggle" type="checkbox" unchecked />
+                <span class="slider round"></span>
+              </label>
+            </label>
+            <div id="statusMsg">
+              <div id="listStatus"></div>           
+            </div>
+        </div>
+      </div>      
+      <a href="popup.html"><button id="backBtn"><span>Back</span></button></a>
+      
+    </body>
+</html>
